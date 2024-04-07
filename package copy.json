@@ -18,5 +18,20 @@
   "devDependencies": {
     "prettier": "^3.0.3",
     "release-it": "^17.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thornbug90/test-release.git"
+  },
+  "changelog": {
+    "repo": "thornbug90/test-release",
+    "labels": {
+      "breaking": ":boom: Breaking Change",
+      "enhancement": ":rocket: Enhancement",
+      "bug": ":bug: Bug Fix",
+      "documentation": ":memo: Documentation",
+      "internal": ":house: Internal"
+    },
+    "cacheDir": ".changelog"
   }
 }
